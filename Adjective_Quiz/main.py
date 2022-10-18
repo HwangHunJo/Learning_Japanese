@@ -27,7 +27,7 @@ def CheckText(event):
     global rd
 
     UserAnswer = InputEntry.get().strip()
-    print(content[rd])
+#     print(content[rd])
     if WrongAnsCnt >= 3:
         if NowLanguage == "English":
             RightAnswer = f"{content[rd][0]}'s Right Answer is {content[rd][1]}"
